@@ -20,7 +20,7 @@ Waterfall will still track upstream BungeeCord and merge changes as needed.
 
 ## How To (Server Admins)
 
-Download a copy of InfinityCord.jar here: [InfinityCord](https://github.com/HappyRogelio7/InfinityCord/Downloads/Update/download/InfinityCord-V.0.0.1.jar)
+Download a copy of InfinityCord.jar here: [InfinityCord](https://github.com/HappyRogelio7/InfinityCord/InfinityCord-Downloads/Update/download/InfinityCord-V.0.0.1.jar)
 
 Waterfall requires **Java 8** or above.
 
