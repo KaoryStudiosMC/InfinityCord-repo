@@ -26,8 +26,9 @@ Waterfall requires **Java 8** or above.
 
 ## How To (Plugin Developers)
 ------
+ * See our API patches [here FlameCord-Patches](InfinityCord-Patches)
  * See our API patches [here BungeeCord-Patches](BungeeCord-Patches)
- *  * See our API patches [here FlameCord-Patches](FlameCord-Patches)
+ * See our API patches [here FlameCord-Patches](FlameCord-Patches)
  * Waterfall API JavaDocs here: [papermc.io/javadocs](https://papermc.io/javadocs)
  * Maven repository (for `infinitycord-api`):
 ```xml
