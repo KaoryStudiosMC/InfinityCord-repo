@@ -1,3 +1,0 @@
-Version_0.0.2.txt
-1.8.X - 1.18.2
-Note: Fix Errors.

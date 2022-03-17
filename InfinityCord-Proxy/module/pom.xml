@@ -37,7 +37,7 @@
         <dependency>
             <groupId>com.github.happyrogelio7.infinitycord</groupId>
             <artifactId>infinitycord-api</artifactId>
-            <version>1.18-R0.1-SNAPSHOT-001</version>
+            <version>1.18-R0.1-SNAPSHOT-003</version>
             <scope>compile</scope>
         </dependency>
     </dependencies>

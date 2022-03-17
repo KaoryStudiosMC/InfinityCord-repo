@@ -34,6 +34,9 @@ public class ModulesConfiguration {
         // Server
         public boolean serverEnabled = true;
 
+        //GeyserMC
+        public boolean geysermcEnabled = true;
+
         public ModulesConfiguration(final ConfigurationProvider configurationProvider) {
                 try {
                         final String fileName = "./modules.yml";
@@ -65,6 +68,8 @@ public class ModulesConfiguration {
 
                         this.reconnectEnabled = setIfUnexistant("reconnect.enabled", this.reconnectEnabled,
                                         configuration);
+
+                        this.geysermcEnabled = setIfUnexistant("geysermc.enabled", this.geysermcEnabled, configuration);
 
                         if (!configurationExists) {
                                 configurationProvider.save(configuration, configurationFile);
