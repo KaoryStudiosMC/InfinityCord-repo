@@ -42,7 +42,7 @@ Waterfall requires **Java 8** or above.
 <dependency>
     <groupId>com.github.happyrogelio7.infinitycord</groupId>
     <artifactId>infinitycord-api</artifactId>
-    <version>1.18-R0.1-SNAPSHOT-001</version>
+    <version>1.18-R0.1-SNAPSHOT-002</version>
     <scope>provided</scope>
 </dependency>
  ```
