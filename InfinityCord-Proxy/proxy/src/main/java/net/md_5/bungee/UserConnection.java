@@ -398,7 +398,8 @@ public final class UserConnection implements ProxiedPlayer
 
     private String connectionFailMessage(Throwable cause)
     {
-        return Util.exception( cause, false );
+        //return Util.exception( cause, false );
+        return permissions.contains("infinitycord.connectiofailmessageadmin") ? Util.exception( cause, false ) : cause.getClass().getName();
     }
 
     @Override

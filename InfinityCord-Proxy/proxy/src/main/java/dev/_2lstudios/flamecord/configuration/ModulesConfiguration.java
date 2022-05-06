@@ -35,11 +35,11 @@ public class ModulesConfiguration {
         public boolean serverEnabled = true;
 
         //GeyserMC
-        public boolean geysermcEnabled = true;
+        public boolean geysermcEnabled = false;
 
         public ModulesConfiguration(final ConfigurationProvider configurationProvider) {
                 try {
-                        final String fileName = "./modules.yml";
+                        final String fileName = "./modules_bungee.yml";
                         final File configurationFile = new File(fileName);
                         final Configuration configuration;
                         final boolean configurationExists = configurationFile.exists();
@@ -66,8 +66,7 @@ public class ModulesConfiguration {
 
                         this.serverEnabled = setIfUnexistant("server.enabled", this.serverEnabled, configuration);
 
-                        this.reconnectEnabled = setIfUnexistant("reconnect.enabled", this.reconnectEnabled,
-                                        configuration);
+                        this.reconnectEnabled = setIfUnexistant("reconnect.enabled", this.reconnectEnabled, configuration);
 
                         this.geysermcEnabled = setIfUnexistant("geysermc.enabled", this.geysermcEnabled, configuration);
 
