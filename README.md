@@ -22,7 +22,7 @@ Waterfall will still track upstream BungeeCord and merge changes as needed.
 
 Download a copy of InfinityCord.jar here: [InfinityCord](https://github.com/HappyRogelio7/InfinityCord/blob/main/InfinityCord-Downloads/Update/Download-jar/InfinityCord.jar)
 
-Waterfall requires **Java 8** or above.
+InfinityCord requires **Java 8** or above, if you use **GeyserMC** use the version of **Java 17**
 
 ## How To (Plugin Developers)
 ------
@@ -56,8 +56,7 @@ Clone this repo, run `./infinitycord b` from *bash*, get jar from InfinityCord-P
 ## Join us
 
 * Feel free to open a PR! We accept contributions.
-* Join us on IRC (irc.esper.net #waterfall, [Discord](https://discord.gg/3EebYUyeUX).
-* Visit our forums (https://papermc.io/forums).
+* [Discord](https://discord.gg/3EebYUyeUX)
 
 ## Special Thanks To
 
