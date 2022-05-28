@@ -1,3 +1,0 @@
-Version_0.0.5.txt
-1.8.X - 1.19.pre3
-Note: Update Test Support 1.19.pre3
