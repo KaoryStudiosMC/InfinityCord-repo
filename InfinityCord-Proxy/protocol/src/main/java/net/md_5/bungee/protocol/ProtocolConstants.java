@@ -48,7 +48,7 @@ public class ProtocolConstants
     // End Snapshots Support Protocols
 
     // InfinityCord Start Test Support Protocol 1.19
-    public static final int MINECRAFT_1_19 = 1073741911;
+    public static final int MINECRAFT_1_19 = 1073741913;
     // InfinityCord End Test Support Protocol 1.19
 
 
@@ -70,7 +70,7 @@ public class ProtocolConstants
                 "1.17.x",
                 "1.18.x",
                 "1.19.x",
-                "1.19.pre3"
+                "1.19.pre5"
         );
         ImmutableList.Builder<Integer> supportedVersionIds = ImmutableList.<Integer>builder().add(
                 ProtocolConstants.MINECRAFT_1_8,
